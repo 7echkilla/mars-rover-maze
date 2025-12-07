@@ -79,7 +79,7 @@ try:
             time.sleep(0.5)       
         if(index == 4):
             goForward(speed)
-            time.sleep((distance-15)/speed)  
+            time.sleep((distances-15)/speed)  
         if(index == 5):
             goSide(45, speed)
             time.sleep(0.5)

@@ -53,3 +53,7 @@ The rover will use a combination of sensors to navigate autonomously. Some of th
 ├── requirements.txt     # List of required Python packages\
 ├── [README.md](./README.md)            # Project documentation\
 └── /docs                # Additional documentation (if needed)\
+
+## 🧑‍💻 Running the Project
+To run the rover in autonomous mode: `python main.py`
+This will start the rover and the algorithm will begin navigating the maze autonomously.
