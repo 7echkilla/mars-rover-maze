@@ -25,11 +25,7 @@ The goal is to create an autonomous maze-solving system for the M.A.R.S. Rover, 
 ---
 3. Hardware Setup
 - Connect the 4tronix M.A.R.S. Rover to the Raspberry Pi.
-- Adjust the hardware configurations by modifying the `config.py` file.
-  ```bash
-  nano config.py
-  ```
-  In `config.py`, set up the GPIO pins for motors, sensors, and other peripherals according to your wiring.
+- Adjust the hardware configurations by modifying the `config.py` file. 
 
 ## 🤖 Navigation Algorithm
 The rover will use a combination of sensors to navigate autonomously. Some of the key algorithms include:
