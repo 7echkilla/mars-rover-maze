@@ -44,15 +44,17 @@ The rover will use a combination of sensors to navigate autonomously. Some of th
 ## 📂 Project Structure
 /mars-rover-maze\
 │\
-├── config.py            # Configuration file for hardware setup\
-├── rover.py             # Main control script for the rover\
-├── pathfinding.py       # Algorithms for navigating through the maze\
-├── sensors.py           # Code for interacting with sensors\
-├── motor_control.py     # Motor control functions\
-├── manual_control.py    # Code for manual control using the keypad\
-├── requirements.txt     # List of required Python packages\
-├── [README.md](./README.md)            # Project documentation\
-└── /docs                # Additional documentation (if needed)\
+├── src/\
+│   ├── calibrateServos.py           # Execute setup and general process logic\
+│   ├── driveRover.py        # Functions for gadget unbind/mount/copy/rebind\
+│   ├── gyro.py       # Functions to manage image, copy data and erase\
+│   ├── keypad.py            # Launches a virutal python environment\
+│   └── installer.sh           # Creates a desktop icon to run the program\
+│\
+├── main.py                    # Entry point: initializes and runs services\
+├── requirements.txt           # Python dependencies\
+├── .gitignore\
+├── README.md                  # Project documentation\
 
 ## 🧑‍💻 Running the Project
 To run the rover in autonomous mode: `python main.py`
