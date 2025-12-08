@@ -1,6 +1,10 @@
 # Autonomous M.A.R.S Rover Navigation
 This project focuses on developing an **autonomous navigation system** for the [**4tronix M.A.R.S. Rover Robot**](https://4tronix.co.uk/blog/?p=2112) for **Raspberry Pi Zero**. The rover can navigate a maze autonomously and supports manual control via keyboard input, though manual overrides are penalised during [competition](https://www.facebook.com/events/1138916136930478?ref=newsfeed).
 
+<p align="center">
+  <img src="./media/Rover_Action.gif" alt="M.A.R.S. Rover in action" />
+</p>
+
 ## 🚀 Objective
 The goal is to create an autonomous maze-solving system for the M.A.R.S. Rover, using sensors and algorithms to detect the environment and navigate through the maze without human intervention. Manual control is only allowed as a fallback.
 
