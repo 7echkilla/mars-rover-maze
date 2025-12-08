@@ -1,7 +1,7 @@
 # Basic test for sonar on MARS ROver mast
 
 from __future__ import print_function
-import src.rover,time
+import rover,time
 
 rover.init(0)
 
