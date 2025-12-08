@@ -1,5 +1,5 @@
 # Autonomous M.A.R.S Rover Navigation
-This project focuses on developing an **autonomous navigation system** for the [**4tronix M.A.R.S. Rover Robot**](https://4tronix.co.uk/blog/?p=2112) for **Raspberry Pi Zero**. The rover can navigate a maze autonomously and supports manual control via keyboard input, though manual overrides are penalised during competition.
+This project focuses on developing an **autonomous navigation system** for the [**4tronix M.A.R.S. Rover Robot**](https://4tronix.co.uk/blog/?p=2112) for **Raspberry Pi Zero**. The rover can navigate a maze autonomously and supports manual control via keyboard input, though manual overrides are penalised during [competition](https://www.facebook.com/events/1138916136930478?ref=newsfeed).
 
 ## 🚀 Objective
 The goal is to create an autonomous maze-solving system for the M.A.R.S. Rover, using sensors and algorithms to detect the environment and navigate through the maze without human intervention. Manual control is only allowed as a fallback.
@@ -57,8 +57,8 @@ mars-rover-maze/\
 ├── [main.py](./main.py)                                # Entry point: initialises rover and runs autonomous/manual mode\
 ├── [requirements.txt](./requirements.txt)              # Python dependencies\
 ├── [LICENSE](./LICENSE)                                # Project license (MIT)\
-├── media\                                              # Photos, videos and presentation for event documentation\
-└── README.md                                           # Project documentation
+├── [media/](./media/)                                  # Photos, videos and presentation for event documentation\
+└── [README.md](./README.md)                            # Project documentation
 
 ## 🧑‍💻 Running the Project
 1. Run the project using `python main.py`
